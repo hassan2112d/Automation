@@ -1,4 +1,4 @@
-with open("intro.txt") as b:
+with open('intro.txt','r') as b:
     for c in b:
         print(c.upper().strip())
 
